@@ -1,0 +1,46 @@
+/*清除默认样式*/
+html,body,h1,h2,h3,p,ul,li{
+  margin:0;
+  padding:0;
+}
+img{
+  border:none;
+}
+a{
+  text-decoration: none;
+  color:black;
+}
+li{
+  list-style:none;
+}
+h2{
+  font-size:30px;
+}
+/*公共样式*/
+@media(min-width:1200px){
+  .container{
+    width:1240px;
+  }
+  html{
+    font-size:10px;
+  }
+}
+@media (max-width:800px){
+    .container{
+      width:800px;
+    }
+    html{
+      font-size:10px;
+    }
+  }
+.container{
+  margin:0 auto;
+}
+html{
+  min-width:800px;
+}
+
+
+
+
+
